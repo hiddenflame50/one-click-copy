@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy | One‑Click URL Copier</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      line-height: 1.6;
+      color:#333;
+    }
+    h1, h2{color:#222;}
+    a{color:#1a73e8;text-decoration:none;}
+    a:hover{text-decoration:underline;}
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p><em>Last updated: 24&nbsp;May&nbsp;2025</em></p>
+
+  <p>
+    Thank you for choosing <strong>One‑Click URL Copier</strong> ("the Extension").
+    We respect your privacy and are committed to protecting any personal information you may provide while using the Extension.
+    This Privacy Policy describes what data we collect, how we use it, and the choices you have.
+  </p>
+
+  <h2>1. Information We Collect</h2>
+  <p><strong>We do not collect, store, or transmit any personal data.</strong> All logic runs locally inside your browser.</p>
+  <ul>
+    <li><strong>Clipboard Data:</strong> The Extension copies the current tab’s URL to your clipboard on demand. The URL is never transmitted or stored by the Extension.</li>
+    <li><strong>Local Preferences:</strong> If you open <code>options.html</code>, two optional settings (badge display on/off and badge timeout) are saved using Chrome’s <code>storage</code> API. These values remain on your device and are not synced or shared.</li>
+  </ul>
+
+  <h2>2. Chrome Permissions We Request &amp; Why</h2>
+  <table border="1" cellpadding="6" cellspacing="0">
+    <thead>
+      <tr><th>Permission</th><th>Purpose</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><code>activeTab</code></td><td>Temporarily access the URL of the tab you clicked so it can be copied.</td></tr>
+      <tr><td><code>scripting</code></td><td>Inject a small script on regular web pages to copy the URL to the clipboard.</td></tr>
+      <tr><td><code>offscreen</code></td><td>Create a hidden off‑screen document to copy URLs from restricted pages (e.g., <code>chrome://</code>).</td></tr>
+      <tr><td><code>storage</code></td><td>Save the optional badge and timeout settings you set in the Options page.</td></tr>
+    </tbody>
+  </table>
+
+  <h2>3. How We Use Information</h2>
+  <p>The Extension uses the information described above <em>solely</em> to provide its core function—copying the current page’s URL. No data ever leaves your browser.</p>
+
+  <h2>4. Analytics &amp; Third‑Party Services</h2>
+  <p>The Extension includes <strong>no advertisements, analytics, or third‑party tracking libraries</strong>.</p>
+
+  <h2>5. Data Security</h2>
+  <p>Because we do not collect personal information, the primary security concern is your local environment. The Extension operates entirely within Chrome’s sandboxed extension environment and does not maintain persistent background pages.</p>
+
+  <h2>6. Children’s Privacy</h2>
+  <p>The Extension is not directed to children under 13. We do not knowingly collect personal information from children.</p>
+
+  <h2>7. Your Rights &amp; Choices</h2>
+  <p>Since no personal data is stored, you do not need to request access, deletion, or correction of personal data. You may uninstall the Extension at any time to remove all locally stored preferences.</p>
+
+  <h2>8. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy to reflect minor technical or legal changes. We will update the “Last updated” date above when changes occur. Your continued use of the Extension after an update constitutes acceptance of the revised policy.</p>
+
+  <h2>9. Contact Us</h2>
+  <p>If you have questions about this Privacy Policy, please email us at <a href="mailto:support@example.com">hiddenflame50@gmail.com</a>.</p>
+
+  <p style="margin-top:40px;">© <span id="year"></span> One‑Click URL Copier</p>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
